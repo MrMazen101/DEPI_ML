@@ -3,6 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
+import os
 
 # 1. إعدادات الصفحة والبراند
 st.set_page_config(page_title="Ford GoBike Analysis", layout="wide")
@@ -10,11 +11,16 @@ st.set_page_config(page_title="Ford GoBike Analysis", layout="wide")
 brand_color = '#007db8' 
 sns.set_theme(style="whitegrid")
 
-# 2. تحميل البيانات (مع التأكد من وجودها)
+# 2. تحميل البيانات (مع التأكد من وجوده
+
 @st.cache_data
 def load_data():
-    return pd.read_csv('cleaned_bike_data.csv')
-
+    # السطر ده بيعرف مسار الفولدر اللي فيه ملف app.py حالياً
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    # السطر ده بيلزق اسم ملف الداتا في مسار الفولدر عشان يجيبه صح 100%
+    file_path = os.path.join(current_dir, 'cleaned_bike_data.csv')
+    
+    return pd.read_csv(file_path)
 df = load_data()
 
 # القائمة الجانبية للتنقل بين الـ 15 رسمة
