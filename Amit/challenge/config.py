@@ -18,8 +18,10 @@ class Config:
     # 🔹 أسماء الأعمدة (بناءً على وصف الداتا في المسابقة)
     TARGET = "Exited" # أو 'churn' حسب اسم العمود في الداتا
     ID_COL = "CustomerId" # عمود الـ ID اللي مش هنستخدمه في التدريب
+
+    DROP_COLS = ["RowNumber", "CustomerId", "Surname"] # الأعمدة اللي مش هتدخل في التدريب (لو موجودة)   
     
     # 🔹 تقسيم الميزات (Features)
-    NUM_FEATURES = ['CreditScore', 'Age', 'Tenure', 'Balance', 'EstimatedSalary']
+    NUM_FEATURES = ['CreditScore', 'Age', 'Tenure', 'Balance', 'EstimatedSalary',  'NumOfProducts'] # الميزات الرقمية اللي هتدخل في الـ Pipeline
     CAT_FEATURES = ['Geography', 'Gender']
     BIN_FEATURES = ['HasCrCard', 'IsActiveMember'] # ميزات ثنائية (0 أو 1)
