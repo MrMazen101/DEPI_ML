@@ -28,8 +28,8 @@ def explain_model_with_shap(model, pipeline, sample_data):
     """
     print("🔍 جاري تحليل الموديل باستخدام SHAP...")
     
-    # تحضير عينة من الداتا (بدون عمود الهدف أو الـ ID) عشان ندخلها للموديل
-    X_sample = sample_data.drop(columns=[Config.TARGET, Config.ID_COL])
+    # تحضير عينة من الداتا (بدون عمود الهدف أو الأعمدة المرفوضة) عشان ندخلها للموديل
+    X_sample = sample_data.drop(columns=[Config.TARGET] + Config.DROP_COLS, errors='ignore')
     
     # لازم نعدي الداتا على الـ Pipeline الأول عشان الموديل يفهمها
     X_processed = pipeline.transform(X_sample)
