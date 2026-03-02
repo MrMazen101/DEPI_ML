@@ -35,6 +35,6 @@ class BankFeatureEngineer(BaseEstimator, TransformerMixin):
         return X_new
 
 # تجربة سريعة للـ Transformer (للتأكد إنه شغال)
-# df_dummy = pd.DataFrame({'Balance': [1000, 0], 'EstimatedSalary': [5000, 2000], 'Tenure': [5, 2], 'Age': [30, 25], 'IsActiveMember': [1, 0], 'HasCrCard': [1, 1]})
-# engineer = BankFeatureEngineer()
-# print(engineer.transform(df_dummy))
+#f_dummy = pd.DataFrame({'Balance': [1000, 0], 'EstimatedSalary': [5000, 2000], 'Tenure': [5, 2], 'Age': [30, 25], 'IsActiveMember': [1, 0], 'HasCrCard': [1, 1]})
+#engineer = BankFeatureEngineer()
+#print(engineer.transform(f_dummy))
