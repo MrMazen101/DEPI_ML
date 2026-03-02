@@ -1,3 +1,5 @@
+import pandas as pd
+from sklearn.base import BaseEstimator, TransformerMixin
 # ==========================================
 # 2. Custom Feature Engineering Transformer
 # ==========================================
