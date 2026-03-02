@@ -5,8 +5,8 @@ from sklearn.metrics import roc_auc_score
 from lightgbm import LGBMClassifier
 
 # استدعاء الكلاسات اللي عملناها في الملفات التانية
-# from config import Config
-# from pipeline import build_preprocessing_pipeline
+from config import Config
+from pipeline import build_preprocessing_pipeline
 
 # ==========================================
 # 4. Cross-Validation & Training Engine
