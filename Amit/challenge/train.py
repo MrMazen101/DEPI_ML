@@ -18,11 +18,11 @@ def train_and_evaluate(train_df, test_df):
     print("🚀 جاري بدء التدريب والتقييم...")
     
     # فصل الميزات (X) عن الهدف (y)
-    X = train_df.drop(columns=[Config.TARGET, Config.ID_COL])
+    X = train_df.drop(columns=[Config.TARGET] + Config.DROP_COLS, errors='ignore')
     y = train_df[Config.TARGET]
     
     # تجهيز بيانات الاختبار (بدون عمود الـ ID)
-    X_test = test_df.drop(columns=[Config.ID_COL])
+    X_test = test_df.drop(columns=Config.DROP_COLS, errors='ignore')
     
     # مصفوفات فاضية عشان نحفظ فيها التوقعات
     oof_predictions = np.zeros(len(train_df))
