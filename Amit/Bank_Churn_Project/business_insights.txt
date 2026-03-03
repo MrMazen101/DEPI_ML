@@ -1,0 +1,14 @@
+BUSINESS INSIGHTS FROM CHURN ANALYSIS
+==================================================
+
+Top Risk Factors:
+- NumOfProducts_1: 0.2452
+- Balance_per_Product: 0.1640
+- EstimatedSalary: 0.0729
+- Geography_Spain: 0.0111
+
+Customer Segments:
+- Low Risk: 5833
+- Medium Risk: 2469
+- High Risk: 882
+- Very High Risk: 816
