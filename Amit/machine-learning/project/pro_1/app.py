@@ -1,22 +1,24 @@
+import os
 import streamlit as st
 import pandas as pd
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import make_scorer, r2_score
 from sklearn.model_selection import GridSearchCV, ShuffleSplit
 
-
+# استدعاء ملف الـ visuals الخاص بيك
 import visuals as vs
-import os  
-
-    
 
 # -----------------------------------------------------------
 # 1. Model Training & Caching
 # -----------------------------------------------------------
 @st.cache_resource
 def load_and_train_model():
-    # Load dataset
-    data = pd.read_csv('housing.csv')
+    # تحديد المسار الصحيح للملف تلقائياً عشان يشتغل على Streamlit Cloud
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    csv_path = os.path.join(current_dir, 'housing.csv')
+    
+    # Load dataset using the absolute path
+    data = pd.read_csv(csv_path)
     prices = data['MEDV']
     features = data.drop('MEDV', axis=1)
     
