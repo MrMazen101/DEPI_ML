@@ -7,14 +7,7 @@ from sklearn.model_selection import GridSearchCV, ShuffleSplit
 
 import visuals as vs
 import os  
-@st.cache_resource
-def load_and_train_model():
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    csv_path = os.path.join(current_dir, 'housing.csv')
-    
-    # Load dataset
-    data = pd.read_csv(csv_path)
-    prices = data['MEDV']
+
     
 
 # -----------------------------------------------------------
