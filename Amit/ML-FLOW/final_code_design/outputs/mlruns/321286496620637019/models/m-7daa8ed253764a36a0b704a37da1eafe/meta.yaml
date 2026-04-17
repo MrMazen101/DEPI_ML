@@ -1,0 +1,11 @@
+artifact_location: file:d:\InnovionRay_team\Innovisionray_team\InnoVisionRay\Amit\AI_Diploma\Data_Science\Machine
+  Learning\MachineLearning\MLops\MlFlow\MLFlowProject\MLFlowProject\P1\outputs\mlruns/321286496620637019/models/m-7daa8ed253764a36a0b704a37da1eafe/artifacts
+creation_timestamp: 1762021881163
+experiment_id: '321286496620637019'
+last_updated_timestamp: 1762021887210
+model_id: m-7daa8ed253764a36a0b704a37da1eafe
+model_type: null
+name: model_rf
+source_run_id: f009b5d7f2a64a599eaa86f794483c3b
+status: 2
+status_message: null

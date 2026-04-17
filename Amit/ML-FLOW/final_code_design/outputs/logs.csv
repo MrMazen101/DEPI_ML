@@ -1,0 +1,5 @@
+timestamp,run_name,run_id,params,metrics
+2025-11-01 14:15:56,RandomForest_Training,LOCAL,"{""clf__n_estimators"": 200, ""clf__min_samples_split"": 10, ""clf__min_samples_leaf"": 4, ""clf__max_depth"": 10}","{""f1"": 0.609375, ""accuracy"": 0.8498498498498499, ""roc_auc"": 0.8685465077671238}"
+2025-11-01 14:16:04,LogisticRegression_Training,LOCAL,"{""model"": ""LogisticRegression""}","{""f1"": 0.5042016806722689, ""accuracy"": 0.7637637637637638, ""roc_auc"": 0.7813715664124212}"
+2025-11-01 20:31:27,RandomForest_Training,LOCAL,"{""clf__n_estimators"": 100, ""clf__min_samples_split"": 5, ""clf__min_samples_leaf"": 4, ""clf__max_depth"": 10}","{""f1"": 0.6085825747724317, ""accuracy"": 0.8493493493493494, ""roc_auc"": 0.8677388319123077}"
+2025-11-01 20:31:33,LogisticRegression_Training,LOCAL,"{""model"": ""LogisticRegression""}","{""f1"": 0.5042016806722689, ""accuracy"": 0.7637637637637638, ""roc_auc"": 0.7813715664124212}"

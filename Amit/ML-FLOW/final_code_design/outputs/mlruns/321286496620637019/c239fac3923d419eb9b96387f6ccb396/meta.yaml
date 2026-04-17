@@ -1,0 +1,15 @@
+artifact_uri: file:d:\InnovionRay_team\Innovisionray_team\InnoVisionRay\Amit\AI_Diploma\Data_Science\Machine
+  Learning\MachineLearning\MLops\MlFlow\MLFlowProject\MLFlowProject\P1\outputs\mlruns/321286496620637019/c239fac3923d419eb9b96387f6ccb396/artifacts
+end_time: 1762021893848
+entry_point_name: ''
+experiment_id: '321286496620637019'
+lifecycle_stage: active
+run_id: c239fac3923d419eb9b96387f6ccb396
+run_name: LogisticRegression_Training
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762021887292
+status: 3
+tags: []
+user_id: AMIT

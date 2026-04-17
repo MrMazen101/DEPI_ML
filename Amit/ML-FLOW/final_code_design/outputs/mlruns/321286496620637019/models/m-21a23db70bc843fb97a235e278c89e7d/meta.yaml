@@ -1,0 +1,11 @@
+artifact_location: file:d:\InnovionRay_team\Innovisionray_team\InnoVisionRay\Amit\AI_Diploma\Data_Science\Machine
+  Learning\MachineLearning\MLops\MlFlow\MLFlowProject\MLFlowProject\P1\outputs\mlruns/321286496620637019/models/m-21a23db70bc843fb97a235e278c89e7d/artifacts
+creation_timestamp: 1762021887880
+experiment_id: '321286496620637019'
+last_updated_timestamp: 1762021893818
+model_id: m-21a23db70bc843fb97a235e278c89e7d
+model_type: null
+name: model_lr
+source_run_id: c239fac3923d419eb9b96387f6ccb396
+status: 2
+status_message: null

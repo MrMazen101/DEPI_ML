@@ -1,0 +1,16 @@
+creation_timestamp: 1762000500642
+current_stage: None
+deployment_job_state: null
+description: ''
+last_updated_timestamp: 1762000500642
+model_id: ''
+name: forest_best_model
+run_id: b41585bae46f49148d099f7589b4acbf
+run_link: ''
+source: models:/forest_best_model/1
+status: READY
+status_message: null
+storage_location: file:d:\InnovionRay_team\Innovisionray_team\InnoVisionRay\Amit\AI_Diploma\Data_Science\Machine
+  Learning\MachineLearning\MLops\MlFlow\MLFlowProject\MLFlowProject\P1\outputs\mlruns/321286496620637019/b41585bae46f49148d099f7589b4acbf/artifacts/model_rf
+user_id: null
+version: 3

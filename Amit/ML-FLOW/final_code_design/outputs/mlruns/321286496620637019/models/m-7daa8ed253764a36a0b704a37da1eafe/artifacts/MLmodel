@@ -1,0 +1,23 @@
+artifact_path: file:d:\InnovionRay_team\Innovisionray_team\InnoVisionRay\Amit\AI_Diploma\Data_Science\Machine
+  Learning\MachineLearning\MLops\MlFlow\MLFlowProject\MLFlowProject\P1\outputs\mlruns/321286496620637019/models/m-7daa8ed253764a36a0b704a37da1eafe/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.5.1
+model_id: m-7daa8ed253764a36a0b704a37da1eafe
+model_size_bytes: 4483169
+model_uuid: m-7daa8ed253764a36a0b704a37da1eafe
+prompts: null
+run_id: f009b5d7f2a64a599eaa86f794483c3b
+utc_time_created: '2025-11-01 18:31:21.221487'

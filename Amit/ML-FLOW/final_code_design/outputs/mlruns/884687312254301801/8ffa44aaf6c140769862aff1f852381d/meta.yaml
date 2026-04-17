@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/InnovionRay_team/Innovisionray_team/InnoVisionRay/Amit/AI_Diploma/Data_Science/Machine
+  Learning/MachineLearning/MLops/MlFlow/MLFlowProject/MLFlowProject/P1/outputs/mlruns/884687312254301801/8ffa44aaf6c140769862aff1f852381d/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '884687312254301801'
+lifecycle_stage: active
+run_id: 8ffa44aaf6c140769862aff1f852381d
+run_name: RandomForest_Training
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772790215335
+status: 1
+tags: []
+user_id: gsamuel
